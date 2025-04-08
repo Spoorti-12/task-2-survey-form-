@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ultimez - Modified Form</title>
+</head>
+<body>
+
+    <h2>HTML Form with type text</h2>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="shortAnswer">Your favorite hobby:</label><br>
+        <input type="text" id="shortAnswer" name="shortAnswer"><br>
+    </form>
+
+    <h2>HTML Form with type radio (Favorite Language)</h2>
+    <form>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+    </form>
+
+    <h2>HTML Form with type checkbox (Vehicles)</h2>
+    <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+    </form>
+
+    <h2>Text Area for Longer Response</h2>
+    <form>
+        <label for="message">Tell us about yourself:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40"></textarea>
+    </form>
+
+    <h2>Rating Scale</h2>
+    <form>
+        <label for="rating">Rate our service (1 = Bad, 5 = Excellent):</label><br>
+        <input type="radio" id="rate1" name="rating" value="1">
+        <label for="rate1">1</label>
+        <input type="radio" id="rate2" name="rating" value="2">
+        <label for="rate2">2</label>
+        <input type="radio" id="rate3" name="rating" value="3">
+        <label for="rate3">3</label>
+        <input type="radio" id="rate4" name="rating" value="4">
+        <label for="rate4">4</label>
+        <input type="radio" id="rate5" name="rating" value="5">
+        <label for="rate5">5</label>
+    </form>
+
+</body>
+</html>
